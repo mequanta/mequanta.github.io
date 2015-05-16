@@ -1,1 +1,52 @@
-Hello, MeQuanta!
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MeQuanta</title>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="js/i18next.min.js"></script>
+	<style></style>
+	<script>
+        i18n.init(function (t) {
+            $("body").i18n();
+            window.document.title = t("app.title")
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">MeQuanta</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#" data-i18n="nav.home"></a></li>
+					<li><a href="#" data-i18n="nav.product"></a></li>
+                    <li><a href="#" data-i18n="nav.aboutus"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	</div>
+	<div class="container">
+	Hello, MeQuanta!
+	</div>
+    <footer>
+        <p>&copy; 2015 MeQuanta, Inc. &middot; <a href="#"></a> &middot; <a href="#"></a></p>
+    </footer>
+</body>
+</html>

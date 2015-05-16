@@ -1,0 +1,10 @@
+{
+  "app": {
+    "title": "MeQuanta Network Technology"
+  },
+  "nav": {
+    "home": "Home",
+	"product": "Product",
+	"aboutus": "About"
+  }
+}
